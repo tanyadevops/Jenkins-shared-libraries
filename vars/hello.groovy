@@ -1,4 +1,4 @@
-<-- to create folder we mention name then put / it will create folder in github -->
-  def call(){
-  echo "hello everyone"
+
+  def call() {
+  sh "echo hello everyone"
   }
