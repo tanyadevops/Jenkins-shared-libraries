@@ -1,4 +1,4 @@
 
   def call() {
-  sh "echo hello everyone"
+  echo "hello everyone, learning shared - libraries"
   }
