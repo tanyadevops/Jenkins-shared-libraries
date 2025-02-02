@@ -1,19 +1,21 @@
 @Library("Shared") _
 pipeline {
-    agent {
-label "vinod"
-    }
+    agent any
 
     stages {
         stage('Build') {
             steps {
-                hello()
+                
+                    hello()
+            
             }
         }
-stage ('Clone'){
-steps{
-clone
-}
+         stage('Clone') {
+            steps {
+                clone("https://github.com/tanyadevops/Jenkins-shared-libraries.git","main")
+    
+            
+            }
+        }
     }
 }
-
