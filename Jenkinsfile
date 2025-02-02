@@ -3,9 +3,9 @@ pipeline {
     agent any
 
     stages {
-stage('Helllo') {
+stage('Hello') {
             steps {
-      echo "Hello" 
+      echo "Hello..this is shared library" 
     }
         }
         stage('Build') {
