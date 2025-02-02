@@ -1,1 +1,1 @@
-# This is shared library through Git SCM and webhooks
+# This is shared library through Git SCM and webhooks.
